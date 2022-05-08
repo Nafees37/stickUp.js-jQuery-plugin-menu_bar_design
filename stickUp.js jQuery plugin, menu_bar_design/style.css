@@ -1,0 +1,21 @@
+/* menu_bar_design start */
+.menu_bar_design{text-align: center;}
+ul{list-style: none;}
+li{display: inline-block;margin: 10px;background-color: tomato;padding: 10px;transition: 0.5s;}
+li:hover{background-color: black;}
+a{text-decoration: none;color:white;}
+/* menu_bar_design end */
+
+/* sticky navbar jquery start */
+.isStuck{
+ left:0px;
+ width:100%;
+ background-color: green;
+}
+
+.navbar-wrapper {
+margin-top:0px;
+position: relative;
+z-index: 15;
+}
+/* sticky navbar jquery end */
